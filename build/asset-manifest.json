@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ef72ffa.css",
+    "main.js": "/static/js/main.8891dd26.js",
+    "static/js/453.c34a79a3.chunk.js": "/static/js/453.c34a79a3.chunk.js",
+    "static/css/51.194e28a0.chunk.css": "/static/css/51.194e28a0.chunk.css",
+    "static/js/51.8f6abaaa.chunk.js": "/static/js/51.8f6abaaa.chunk.js",
+    "static/css/918.c81e985f.chunk.css": "/static/css/918.c81e985f.chunk.css",
+    "static/js/918.8288a22d.chunk.js": "/static/js/918.8288a22d.chunk.js",
+    "static/css/212.b7ecf52e.chunk.css": "/static/css/212.b7ecf52e.chunk.css",
+    "static/js/212.35a63919.chunk.js": "/static/js/212.35a63919.chunk.js",
+    "static/js/411.18e1694c.chunk.js": "/static/js/411.18e1694c.chunk.js",
+    "static/media/TencentSansW3.ttf": "/static/media/TencentSansW3.d9647e80671bec3b62f5.ttf",
+    "static/media/TencentSansW7.ttf": "/static/media/TencentSansW7.a14cc1d83aff9780ab51.ttf",
+    "index.html": "/index.html",
+    "main.7ef72ffa.css.map": "/static/css/main.7ef72ffa.css.map",
+    "main.8891dd26.js.map": "/static/js/main.8891dd26.js.map",
+    "453.c34a79a3.chunk.js.map": "/static/js/453.c34a79a3.chunk.js.map",
+    "51.194e28a0.chunk.css.map": "/static/css/51.194e28a0.chunk.css.map",
+    "51.8f6abaaa.chunk.js.map": "/static/js/51.8f6abaaa.chunk.js.map",
+    "918.c81e985f.chunk.css.map": "/static/css/918.c81e985f.chunk.css.map",
+    "918.8288a22d.chunk.js.map": "/static/js/918.8288a22d.chunk.js.map",
+    "212.b7ecf52e.chunk.css.map": "/static/css/212.b7ecf52e.chunk.css.map",
+    "212.35a63919.chunk.js.map": "/static/js/212.35a63919.chunk.js.map",
+    "411.18e1694c.chunk.js.map": "/static/js/411.18e1694c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ef72ffa.css",
+    "static/js/main.8891dd26.js"
+  ]
+}

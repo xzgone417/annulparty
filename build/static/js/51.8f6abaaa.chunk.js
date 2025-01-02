@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkannual_meeting_program=self.webpackChunkannual_meeting_program||[]).push([[51],{51:(a,e,n)=>{n.r(e),n.d(e,{default:()=>r});n(43);var s=n(579);const r=a=>(0,s.jsx)(s.Fragment,{children:(0,s.jsx)("main",{className:"party-main",children:(0,s.jsx)("div",{className:"wait-bg"})})})}}]);
+//# sourceMappingURL=51.8f6abaaa.chunk.js.map
