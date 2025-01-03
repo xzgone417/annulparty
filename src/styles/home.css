@@ -1,0 +1,129 @@
+.party-main {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : column;
+    width          : 100vw;
+    height         : 100vh;
+    overflow-y     : hidden;
+}
+
+.party-main .result-header {
+    width            : 100%;
+    height           : 70vw;
+    background-image : url('../../public/assets/result-header.jpg');
+    background-repeat: no-repeat;
+    background-size  : cover;
+}
+
+@media screen and (min-width: 750px) {
+    .party-main .result-header {
+        height: 45vw;
+    }
+}
+
+@media screen and (max-width: 396px) {
+    .party-main .result-header {
+        height: 65vw;
+    }
+}
+
+.party-main .wait-bg {
+    width            : 100%;
+    height           : calc(100vh - 70vw);
+    background-image : url('../../public/assets/result-bg.jpg');
+    background-repeat: no-repeat;
+    background-size  : cover;
+    position         : relative;
+}
+
+@media screen and (min-width: 750px) {
+    .party-main .wait-bg {
+        height: calc(100vh - 45vw);
+    }
+}
+
+@media screen and (max-width: 396px) {
+    .party-main .wait-bg {
+        height: calc(100vh - 65vw);
+    }
+}
+
+.party-main .wait-bg .blue-bg {
+    width            : 100%;
+    aspect-ratio     : 458 / 550;
+    background-image : url('../../public/assets/result-dian.png');
+    background-repeat: no-repeat;
+    background-size  : cover;
+    position         : absolute;
+    z-index          : 1;
+    top              : 5vh;
+    left             : 0;
+}
+
+.party-main .wait-bg .dialog-bg {
+    position         : absolute;
+    left             : 0;
+    top              : -5vw;
+    background-image : url('../../public/assets/ok-dialog.png');
+    background-repeat: no-repeat;
+    width            : 100%;
+    background-size  : 100% 100%;
+    height           : 40vh;
+    z-index          : 30;
+    transform        : translateY(-5vw);
+}
+
+@media screen and (min-width: 750px) {
+    .party-main .wait-bg .dialog-bg {
+        top   : -1vw;
+        height: 36vh;
+    }
+}
+
+.party-main .wait-bg .next-question {
+    position         : absolute;
+    left             : 0;
+    top              : 42vh;
+    background-image : url('../../public/assets/next-question.png');
+    background-repeat: no-repeat;
+    background-size  : cover;
+    width            : 100%;
+    aspect-ratio     : 1080 / 235;
+    z-index          : 30;
+}
+
+@media screen and (min-width: 750px) {
+    .party-main .wait-bg .next-question {
+        top       : 33vh;
+        max-height: 165px;
+    }
+}
+
+@media screen and (max-width: 396px) {
+    .party-main .wait-bg .next-question {
+        top: 38vh;
+    }
+}
+
+.party-main .wait-bg .result-footer {
+    position         : fixed;
+    left             : 0;
+    bottom           : 0;
+    background-image : url('../../public/assets/result-footer.png');
+    background-repeat: no-repeat;
+    background-size  : cover;
+    width            : 100%;
+    height           : 26vw;
+    z-index          : 30;
+}
+
+.party-main .wait-bg .result-footer .logo {
+    position    : absolute;
+    top         : 60%;
+    left        : 50%;
+    transform   : translate(-50%, );
+    width       : 15%;
+    aspect-ratio: 184 / 80;
+    z-index     : 35;
+}
